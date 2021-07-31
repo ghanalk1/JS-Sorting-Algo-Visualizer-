@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.title {
+    margin: 10px;
+    font-size: 45px;
+    font-family: 'Tourney', cursive;
+    margin-bottom: 30px;
+}
+
+.func {
+    text-decoration: none;
+    border: none;
+    background: #ff4d4d;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.func:hover {
+    background: #cc0000;
+    color: white;
+}
+
+.container {
+    height: 700px;
+    width: 1202px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.block {
+  width: 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #66ccff;
+  transition: 0.2s all ease;
+}
+
+
+.block__id {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
+  color: white;
+} 
